@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass{
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #4747470b;
+    backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    @apply border-4 border-gray-50 shrink-0 h-3/4 w-[30%] rounded-3xl py-20 px-7 min-w-max;
+}
+
+.glassLanding{
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #4747470b;
+    backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    @apply border-4 border-gray-50 shrink-0 h-1/2 w-[30%] rounded-3xl py-20 px-7 min-w-max;
+}
+.landingPage{
+    background: #dcdce6;
+    background-image: url('../assets/dhoniSirLanding.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.profile_img{
+    @apply border-4 border-gray-100 w-[135px] rounded-full shadow-lg cursor-pointer;
+    @apply hover:border-gray-200;
+}
+
+.textbox{
+    @apply border-0 px-5 py-4 rounded-xl w-3/4 shadow-sm text-lg;
+    @apply focus:outline-none;
+}
+
+.btn{
+    @apply border bg-indigo-500 w-3/4 py-4 rounded-lg text-gray-50 text-xl shadow-sm text-center;
+}
+
+.btn:hover{
+    background-color: #ff6a6a;
+}
+
+.btnHalf{
+    @apply border bg-indigo-500 w-1/3 py-4 rounded-lg text-gray-50 text-xl shadow-sm text-center;
+}
+
+.btnHalf:hover{
+    background-color: #ff6a6a;
+}
+
+input[type='file']{
+    display: none;
+}
+
+/* Match Details */
+
+.matchBlock {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.matchNumber {
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+}
+
+.teamBlock {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.team {
+font-size: 24px;
+font-weight: bold;
+}
+
+.vs {
+font-size: 24px;
+font-weight: bold;
+margin: 0 10px;
+}
+
+.timing {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+}
+
+.time {
+font-style: italic;
+color: #888888;
+margin: 0 5px;
+}
+
+.predict {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+}
+
+.predictText {
+font-weight: bold;
+}
+
+.buttonGroup {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+}
+
+.teamButton {
+background-color: #4caf50;
+color: white;
+border: none;
+border-radius: 4px;
+padding: 8px 16px;
+margin: 0 5px;
+cursor: pointer;
+}
+
+.teamButton:hover {
+background-color: #45a049;
+}
+
+.selected {
+    background-color: #2a86e8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
